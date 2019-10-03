@@ -1,0 +1,33 @@
+Open command prompt
+
+Go to the folder you have downloaded or clone your project rentme-ui
+
+Mine is under C:\RentMe\RentMe
+
+The way to go the folder is :
+cd <Folder Path> Like below:
+
+cd C:\RentMe\RentMe
+
+after this if you have installed the visual studio and node js, following command should work:
+
+cd project direcotry path and type
+code .
+(It opens the project in visualstudio software)
+
+to open in browser:
+ng serve --open
+
+to deploy to webserver
+ng build
+
+Steps to clone project into local machine:
+The working solution for me was
+
+npm install
+
+ng update
+
+and finally
+
+npm update
